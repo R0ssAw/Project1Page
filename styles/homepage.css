@@ -1,0 +1,76 @@
+/* Cup Section Styles */
+
+.cup-section {
+    background-image: url(../images/background/cup-and-leaf.jpg);
+    padding: 100px;
+    height: 300px;
+    background-attachment:fixed;
+    background-position: centered;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.cup-section > .top-heading {
+    padding: 0px 8px;
+    background-color: #ad986a;
+    color:;
+    width:199px;
+    border-radius: 3px;
+}
+
+.cup-section > .bottom-heading {
+    padding: 0px 6px;
+    background-color: #ad986a;
+    color: darkgreen;
+    margin-top: 20px;
+    width: 126px;
+    border-radius: 3px;
+}
+
+/*Feature Section Styles*/
+.features-section {
+    height:300px;
+    background-image: url(../images/background/burlap.jpg);
+    background-color:#ad986a;
+    border-top: 9px solid darkgreen;
+    color:rgb(51, 37, 6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.911);
+}
+
+.features-section > .columns-wrapper {
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin 42px;
+    text-align: center;
+    border-bottom: 9px solid transparent;
+    border-radius: 10px;
+    transition:  1s;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    transform: scale(1.2) 
+}
+
+.features-section > .columns-wrapper > .column :nth-child(1) {
+    font-size:3em;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(2) {
+    font-size:1.5em;
+    font-weight: 900;
+}
+
+.features-section > .columns-wrapper > .column :nth-child(3) {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+

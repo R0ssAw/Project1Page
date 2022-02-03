@@ -79,14 +79,15 @@
 
 .links-wrapper > .nav-link a{
     font-family: "ubuntu Condensed", sans-serif;
-    color: #ad986a;
+    font-size: medium;
+    color: rgb(30, 209, 30);
     text-decoration: none;
     transition: 0.5s;
 }
 
 
 .links-wrapper > .nav-link a:hover{
-    color: rgb(30, 209, 30);
+    color: rgb(53, 50, 32);
     letter-spacing: 3px;
 }
 
